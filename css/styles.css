@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 30px 20px;
+}
+
+.prog {
+  text-decoration-style: solid;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  margin:0px;
+}
+
+
+.middle-container {
+  margin:0px;
+}
+
+.bottom-container {
+  padding: 30px;
+  background-color: #66BFBF;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.programming-img {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.databases-img {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.profile {
+  margin: 100px auto;
+  width: 800px;
+}
+
+hr {
+  border: 10px dotted #EAF6F6;
+  border-style: dotted none none none;
+  width: 100px;
+  margin: 50px auto 50px auto;
+}
+
+.contact-me {
+  margin: 50px;
+  clear: right;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #EAF6F6;
+}
+
+.btn {
+  margin-top: auto;
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #59819c);
+  background-image: -moz-linear-gradient(top, #66bfbf, #59819c);
+  background-image: -ms-linear-gradient(top, #66bfbf, #59819c);
+  background-image: -o-linear-gradient(top, #66bfbf, #59819c);
+  background-image: linear-gradient(to bottom, #66bfbf, #59819c);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #66b0bd;
+  text-decoration: none;
+}
+
+.contact-me-description {
+  margin-bottom: 50px;
+}

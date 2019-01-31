@@ -3,80 +3,55 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Nico's Personal Side</title>
+  <title>NicNac's Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="vaultboy_favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Fallout 3 boy.png" alt="Nicolaas's avatar"></td>
-      <td>
-        <h1>Nicolaas Benadé</h1>
-        <p><em>Junior programmer at <a href="http://nbsystems.co.za/">NBSystems Software Solutions</a></em></p>
-        <p>I am a junior developer at NBSystems. I have been working there for two years. I study electrical engineering at the University of Pretoria.</p>
-      </td>
-    </tr>
-  </table>
-  <hr size="3" noshade>
-  <h3><strong>Movies</strong></h3>
-  <ul style="list-style-type:disc;">
-    <li>Count of Monte Cristo</li>
-    <li>Conan the Barbarian</li>
-    <li>Blood diamond</li>
-    <li>Gladiator</li>
-    <li>Scott Pilgrim</li>
-    <li>John Wick</li>
-  </ul>
-  <hr>
-  <a href="anime.html">Anime</a>
-  <hr>
-  <h3>Series</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Series</th>
-      </tr>
-    </thead>
-    <tr>
-      <td>2018 - 2019</td>
-      <td>Band of Brothers</td>
-    </tr>
-    <tr>
-      <td>2010</td>
-      <td>Frontier</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Hobbies</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Programming</td>
-            <td>🌟🌟🌟🌟</td>
-          </tr>
-          <tr>
-            <td>Bird Hunting</td>
-            <td>🌟🌟🌟</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Board Games</td>
-            <td>🌟🌟🌟🌟🌟</td>
-          </tr>
-          <tr>
-            <td>Computer Games</td>
-            <td>🌟🌟🌟🌟</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>Nicolaas Benadé</h1>
+    <h2 style="font-weight: normal">a <span class="prog">prog</span>rammer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="avatar" src="https://media3.giphy.com/media/1qk49rU5SCajPxHkrw/giphy.gif?cid=3640f6095c52a0452e36616667897539" alt="avatar icon">
+      <h2>Hello.</h2>
+      <p>I am a programmer learning web application development. The purpose of this is to be able to make a form from which farmers can order water.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="programming-img" src="https://image.flaticon.com/icons/svg/977/977597.svg" alt="computer">
+        <h3>Programming</h3>
+        <p>I am pretty ok with programming. I learned to code using Delphi and Lazarus, which uses free Pascal.</p>
+      </div>
+      <div class="skill-row">
+        <img class="databases-img" src="https://image.flaticon.com/icons/svg/149/149206.svg" alt="database">
+        <h3>Databases</h3>
+        <p>I also have experience with database design and management. I assist in maintaining a database about agricultural water.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Call me broheim.</h3>
+      <p class="contact-me-description">If you know me, you can call me. Otherwise use one of these links to send a message or visit our websites.</p>
+      <a class="btn" href="mailto:name@email.com">Email me;)</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.wateradmin.co.za/">WaterAdmin</a>
+    <a class="footer-link" href="https://www.nbsystems.co.za">NB Systems</a>
+    <p class="copyright">© 2018 Nicolaas Benadé</p>
+  </div>
 </body>
 
 </html>
